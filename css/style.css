@@ -1,0 +1,28 @@
+* { margin:0; padding:0; }
+li { list-style:none; }
+a { text-decoration: none; }
+img { vertical-align: top; }
+
+.swiper-container { width: 100%; height: 100%; } 
+.swiper-slide { background-position: center; background-size: cover; }
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction { bottom:40px; }
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next { }
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev { }
+
+
+#cont { max-width: 720px; margin: 0 auto; }
+#cont img { width: 100%; }
+#cont .btn { display:flex; align-items: center;; justify-content: space-around; padding:40px 0; }
+
+
+
+@media (max-width:800px) { /* 모바일용 */
+.ytb { width:100%; height:260px; }
+#cont .btn li { width: 48%; }        
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction { bottom:20px; }     
+}
+
+@media (min-width:801px) { /* PC용 */
+
+    
+} 
